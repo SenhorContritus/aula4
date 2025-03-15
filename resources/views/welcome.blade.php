@@ -15,12 +15,13 @@
         </style>
     </head>
     <body class="antialiased">
+        <h3>Novo Usuário</h3>
         <form action="/contato" method="post">
             {{ csrf_field() }}
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id=""><br>
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" id=""><br>
+            <input type="text" name="nome" id="">
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" id="">
             <input type="submit" value="ok">
         </form>
     </body>
