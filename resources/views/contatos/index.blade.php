@@ -24,13 +24,10 @@
                         Telefone
                     </th>
                 </tr>               
-                @foreach ($contatos as $contato)<!-- for each que mostra cada linha da matriz contatos utilizando a variavel contato
-                -->
+                @foreach ($contatos as $contato)<!-- for each que mostra cada linha da matriz contatos utilizando a variavel contato-->
                 <tr>
                     <td>
-                        {{ $contato['id'] }}<!--
-                            mostra o valor desejado com base no nome declarado na matriz
-                        -->
+                        {{ $contato['id'] }}<!--mostra o valor desejado com base no nome declarado na matriz-->
                     </td>
                     <td>
                         {{ $contato['nome'] }}
