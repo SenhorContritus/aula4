@@ -10,7 +10,7 @@
         </style>
     </head>
     <body>
-        <h3>Visão contritus</h3>
+        <h3>Visão Pog</h3>
         <div>
             <table border="1" >
                 <tr>
@@ -24,10 +24,13 @@
                         Telefone
                     </th>
                 </tr>               
-                @foreach ($contatos as $contato)
+                @foreach ($contatos as $contato)<!-- for each que mostra cada linha da matriz contatos utilizando a variavel contato
+                -->
                 <tr>
                     <td>
-                        {{ $contato['id'] }}
+                        {{ $contato['id'] }}<!--
+                            mostra o valor desejado com base no nome declarado na matriz
+                        -->
                     </td>
                     <td>
                         {{ $contato['nome'] }}
